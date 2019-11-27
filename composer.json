@@ -1,0 +1,21 @@
+{
+  "name": "markluxton-ltd/clean-architecture",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Mark Luxton",
+      "email": "mark@markluxton.ltd"
+    }
+  ],
+  "require": {
+    "slim/slim": "^4.0",
+    "slim/psr7": "^0.6.0",
+    "slim/twig-view": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "core\\": "src/core/",
+      "implementation\\": "src/implementation/"
+    }
+  }
+}
